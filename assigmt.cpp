@@ -13,7 +13,7 @@ private:
 
 public:
     // Constructor to initialize student details
-    Student(string n, int r, float m) : name(n), rollNumber(r), marks(m) {}
+    Student(string n, int r, float m) : name(n), rollNumber(r), marks(m),int a, string p,{}
 
     // Function to display student details
     void displayStudentDetails() {
