@@ -8,6 +8,8 @@ private:
     string name;
     int rollNumber;
     float marks;
+    int age;
+    string programme;
 
 public:
     // Constructor to initialize student details
@@ -18,7 +20,8 @@ public:
         cout << "Roll Number: " << rollNumber << endl;
         cout << "Name: " << name << endl;
         cout << "Marks: " << marks << endl;
-        cout << "----------------------" << endl;
+        cout << "age:" << age<< endl;
+        cout << "programme:" << programme << endl;
     }
 
     // Getter for roll number
@@ -77,6 +80,8 @@ int main() {
         cout << "3. Find Student by Roll Number" << endl;
         cout << "4. Exit" << endl;
         cout << "Enter your choice: ";
+        cout << "Enter your age:";
+        cout << "Enter your programme:";
         cin >> choice;
 
         if (choice == 1) {
